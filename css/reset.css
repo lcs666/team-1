@@ -1,0 +1,36 @@
+/* 样式重构 */
+body,ol,ul,li,h1,h2,h3,h4,h5,h6,p,th,td,dl,dd,form,fieldset,legend,textarea,select,li{ 
+	margin:0; 
+	padding:0; 
+	list-style:none;
+}
+h1,h2,h3,h4,h5{
+	font-size:100%;
+	font-weight:normal;
+}
+input{
+	padding: 0;
+	margin: 0;
+	border: 0;
+	outline: 0;
+}
+img{ 
+	border:0; 
+	vertical-align: top; 
+}
+iframe{ border: none; }
+html,body{ height: 100%; font-size: 12px; }
+a{ 
+	color: #666; 
+	text-decoration: none; 
+	font-size: 12px; 
+}
+.clearfix{ *zoom: 1; }
+.clearfix:after{
+	content: " ";
+	display: table;
+	clear: both;
+	visibility: hidden;
+}
+.fl{ float: left; }
+.fr{ float: right; }
